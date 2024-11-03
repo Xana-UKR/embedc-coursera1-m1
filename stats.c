@@ -295,7 +295,8 @@ void print_arr (unsigned char* ch_arr, int arr_length)
   {
     printf("%d\t", ch_arr[rows_num*cols_num + j]); 
   }
-
+  
+  printf ("\n");
 }
 
 
